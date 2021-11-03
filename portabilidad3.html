@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Portabilidad - Pospago 3</title>
+    <link rel="stylesheet" href="css/portabilidad3.css">
+    <link rel="stylesheet" href="css/telefonica-basics.css">
+</head>
+<body>
+        <section class="section-portabilidad">
+            <div class="portabilidad__container">
+                <div class="plan-header">
+                    <div class="plan__container">
+                        <div class="plan__container-box">
+                            <div class="plan__container-icon"><img src="images/shape_smaller.svg" alt="Icono Carrito"></div>
+                            <div class="plan__container-text">Tu compra <span class="text-left">Plan voz y datos 8GB PORT_2596</span></div>
+                        </div>
+                        <div class="plan__container-box2">
+                            <div class="plan__container-total">Total a pagar <span class="text-precio">$60.950</span>&nbsp;<span class="text-iva"> mes/IVA incluido</span> </div>
+                        </div>
+                    </div>
+                    
+                    <div class="breadcrumb_porta">
+                        <div class="breadcrumb_porta__circular_square done">
+                            <img src="images/icon_user.svg" alt="Usuario">
+                        </div>
+                        <span class="breadcrumb_porta__line"></span>
+                        <div class="breadcrumb_porta__circular_square active">
+                            <img src="images/icon_seguridad.svg" alt="Icono Usuario">
+                        </div>
+                        <span class="breadcrumb_porta__line"></span>
+                        <div class="breadcrumb_porta__circular_square inactive">
+                            <img src="images/icon_ubicacion.svg" alt="Usuario">
+                        </div>
+                        <span class="breadcrumb_porta__line"></span>
+                        <div class="breadcrumb_porta__circular_square inactive">
+                            <img src="images/icon_path.svg" alt="Usuario">
+                        </div>
+                        <span class="breadcrumb_porta__line"></span>
+                        <div class="breadcrumb_porta__circular_square inactive">
+                            <img src="images/icon_frimar-contrato.svg" alt="Usuario">
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="plan-body-title container text-center plan-body-title-bold mt-5 mb-2.5"> Verificación de identidad </h1>
+
+                <p class="plan-body-verification container text-center ">
+                    Ingresa el código que hemos enviado al <span class="plan-body-verification-number">311 123 1234</span> 
+                    
+                    <!-- icon -->
+                    <button type="button" class="btn btn-primary consult-icon " data-toggle="modal" data-target="#exampleModal" >
+                        <img src="images/icon_pencil.svg" alt="" class="consult-icon-image">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-consultant" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header modal-consultant-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="container">
+                                <h5 class="modal-title modal-consultant-title pb-8 container" id="exampleModalLabel">¿Cómo consultar tú código?</h5>
+                                <div class="modal-consultant-content container">
+                                    <ul>
+                                        <li class="d-flex align-items-center">
+                                            <span class="mr-2">1.</span>
+                                            <p>
+                                                Abre el mensaje de texto que enviamos a tu celular 
+                                                con el código. Si no lo recibes selecciona Reenviar 
+                                                código para obtenerlo.
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <span class="mr-2">2.</span>
+                                            <p>
+                                                Digita el código del mensaje de texto
+                                                (número de cinco dígitos).
+                                            </p>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <span class="mr-2 ">3.</span>
+                                            <p>
+                                                Una vez digites el número completo selecciona
+                                                el botón de validar y ¡listo!. 
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                                                        
+                        </div>
+                        </div>
+                    </div>
+                </p> 
+
+                <div class="plan-body-code-container mx-auto container">
+
+                    <p class="plan-body-code mb-2.5">
+                        Ingresa aquí tu código
+    
+                        <button type="button" class="btn btn-primary consult-icon " data-toggle="modal" data-target="#phoneModal" >
+                            <img src="images/icon_question_blue.svg" alt="" class="consult-icon-image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-consultant" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header modal-consultant-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <div class="container">
+                                    <h5 class="modal-title modal-consultant-title pb-8 container" id="exampleModalLabel">¿Quieres corregir tu número?</h5>
+                                    <div class="modal-consultant-content container">
+                                        <form class="form-modal-phone">
+                                            <div class="form-modal-phone-container mb-2 d-flex align-items-center pb-3">
+                                                <img src="images/icon-phone.svg" alt="" class="form-modal-phone-icon mr-3">
+                                                <label for=""></label>
+                                                <input type="" class="form-modal-phone-input align-self-center"  placeholder="">
+                                            </div>
+
+                                            <p class="form-modal-phone-text mb-4">
+                                                El número que ajustes o cambies es el que tendrá el cambio de operador
+                                            </p>
+
+                                            <button type="submit" class="btn form-modal-phone-button container mb-5 ml-0">Guardar</button>
+                                        </form>
+                                        
+                                    </div>
+                                </div>
+                                                            
+                            </div>
+                            </div>
+                        </div>
+                    </p>
+
+                    <form class="plan-body-code-form ">
+
+                        <div class="plan-body-code-inputs-container d-flex justify-content-between align-items-end">
+                            <img src="images/icon_padlock.svg" alt="">
+
+                            <div class="plan-body-code-input-container plan-body-code-input-error">
+                                <label for=""></label>
+                                <input type="" class="plan-body-code-input" id="exampleInputPassword1" placeholder="">
+                            </div>
+    
+                            <div class="plan-body-code-input-container plan-body-code-input-error">
+                                <label for=""></label>
+                                <input type="" class="plan-body-code-input" id="exampleInputPassword1" placeholder="">
+                            </div>
+    
+                            <div class="plan-body-code-input-container plan-body-code-input-error">
+                                <label for=""></label>
+                                <input type="" class="plan-body-code-input" id="exampleInputPassword1" placeholder="">
+                            </div>
+    
+                            <div class="plan-body-code-input-container plan-body-code-input-error">
+                                <label for=""></label>
+                                <input type="" class="plan-body-code-input" id="exampleInputPassword1" placeholder="">
+                            </div>
+    
+                            <div class="plan-body-code-input-container plan-body-code-input-error">
+                                <label for=""></label>
+                                <input type="" class="plan-body-code-input" id="exampleInputPassword1" placeholder="">
+                            </div>
+                            
+                        </div>
+
+                        <p class="plan-body-code-message-error container mt-2 pl-0 ">
+                            El código que ingresaste no es válido, intenta de nuevo
+                        </p>
+
+                        <div class="plan-body-code-info d-flex justify-content-between mb-4">
+                            <p class="plan-body-code-info-time">
+                                Válido por <span>150</span>  segundos 
+                            </p>
+
+                            <a href="" class="plan-body-code-info-resend">
+                                Reenviar código
+                            </a>
+                        </div>
+                        
+                        <button type="submit" class="btn plan-body-code-button plan-body-code-button-active col-12 mt-5 mb-5">Validar</button>
+                    </form>
+                </div>
+
+                
+                
+                <div class="sitio-seguro">
+                    <div class="sitio-seguro-icon">
+                        <img class="img-sitio-seguro" src="images/sello_seguridad_smaller.svg" alt="Sitio Seguro">
+                    </div>
+                    <div class="sitio-seguro-text">Sitio Seguro</div>
+                </div>
+    
+            </div>
+        </section>    
+</body>
+</html> 
+
+
+
